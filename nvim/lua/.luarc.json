@@ -1,0 +1,32 @@
+{
+    "$schema": "https://raw.githubusercontent.com/sumneko/vscode-lua/master/setting/schema.json",
+    "Lua.workspace.library": [
+        "/home/evilenx/.config/nvim",
+        "/home/evilenx/.local/share/nvim/site",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/LuaSnip",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/fidget.nvim",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/mason.nvim",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/onedark.nvim",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/packer.nvim",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/vim-rhubarb",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/vim-sleuth",
+        "/squashfs-root/usr/share/nvim/runtime",
+        "/squashfs-root/usr/lib/nvim",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp/after",
+        "/home/evilenx/.local/share/nvim/site/pack/packer/start/cmp_luasnip/after",
+        "${3rd}/luassert/library"
+    ]
+}
