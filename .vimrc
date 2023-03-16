@@ -18,3 +18,15 @@ call plug#end()
 colorscheme jellybeans
 
 let g:highlightedyank_highlight_duration = 500
+nnoremap v <c-v>
+
+
+filetype plugin indent on
+
+
+set exrc
+
+
+map <C-n> :NERDTreeToggle<CR>
+autocmd FileType nerdtree setlocal number
+autocmd FileType nerdtree setlocal relativenumber
