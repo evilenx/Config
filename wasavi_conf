@@ -1,0 +1,7 @@
+" exrc for wasavi
+
+set theme=matrix
+set bellvolume=1
+set nolaunchbell
+set relativenumber
+set number
