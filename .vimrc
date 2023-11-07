@@ -35,3 +35,8 @@ autocmd FileType nerdtree setlocal number
 
 autocmd FileType nerdtree setlocal relativenumber
 
+
+ "abrir Nerdtree con ctrl + . 
+nnoremap <C-.> :NERDTreeToggle<CR>
+
+
