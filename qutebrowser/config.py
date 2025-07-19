@@ -1,12 +1,14 @@
 # load autoconfig
 config.load_autoconfig()
 
+
+c.url.default_page = 'https://www.google.com' # new tab 
 c.url.start_pages = 'https://www.google.com'
 
 c.url.searchengines = {
     'DEFAULT': 'https://www.google.com/search?q={}',
     'g': 'https://www.google.com/search?q={}',
-    'ddg': 'https://duckduckgo.com/?q={}',
+    'ddg': 'https://wwww.google.com/?q={}',
     # Add more search engines here
 }
 
@@ -17,6 +19,9 @@ c.url.searchengines = {
 
 #c.editor.command = ['mvim', '+{line}', '{file}']
 c.editor.command = ['/opt/homebrew/bin/mvim', '-f', '+{line}', '{file}']
+
+
+
 
 
 # adblock
@@ -48,4 +53,8 @@ c.content.blocking.adblock.lists = [
 # zoom
 c.zoom.default = '75%'
 
+
+# Bind a key to translate the page (useful for Google Translate)
+# Bind a key to translate the page using DeepL
+config.bind('T', 'spawn --detach xdg-open "https://www.deepl.com/translator#en/es/{url}"')
 
