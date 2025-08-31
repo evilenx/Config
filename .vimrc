@@ -39,4 +39,6 @@ autocmd FileType nerdtree setlocal relativenumber
  "abrir Nerdtree con ctrl + . 
 nnoremap <C-.> :NERDTreeToggle<CR>
 
+" Map <Esc><Esc> in terminal mode to exit to normal mode, making it easier to leave the embedded terminal.
+tnoremap <Esc><Esc> <C-\><C-n>
 
