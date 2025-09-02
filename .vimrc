@@ -42,3 +42,12 @@ nnoremap <C-.> :NERDTreeToggle<CR>
 " Map <Esc><Esc> in terminal mode to exit to normal mode, making it easier to leave the embedded terminal.
 tnoremap <Esc><Esc> <C-\><C-n>
 
+
+" Custom statusline colors: black background + white/grey font for :term
+" splits
+hi StatusLine        cterm=NONE ctermfg=15  ctermbg=0
+hi StatusLineNC      cterm=NONE ctermfg=8   ctermbg=0
+hi StatusLineTerm    cterm=NONE ctermfg=15  ctermbg=0
+hi StatusLineTermNC  cterm=NONE ctermfg=8   ctermbg=0
+
+
