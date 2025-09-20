@@ -1,3 +1,21 @@
+/* path on MacOS: 
+
+- Chromium
+~/Library/Application Support/Chromium/Default/Extensions/dbepggeogbaibhgnhhndojpepiihcmeb/2.2.1_0/content_scripts
+
+- Google Chrome
+ ~/Library/Application Support/Google/Chrome/Default/Extensions/
+If you’re using a different profile, replace Default with your profile name (e.g., Profile 1, Profile 2).
+
+Each extension has an ID (a long string).
+dbepggeogbaibhgnhhndojpepiihcmeb
+
+
+~/Library/Application Support/Google/Chrome/Default/Extensions/dbepggeogbaibhgnhhndojpepiihcmeb/
+
+*/
+
+
 /*
  * Many CSS class names in this file use the verbose "vimiumXYZ" as the class name. This is so we
  * don't use the same CSS class names that the page is using, so the page's CSS doesn't mess with
