@@ -1,0 +1,10 @@
+#!/bin/bash
+current=$(setxkbmap -query | grep layout | awk '{print $2}')
+
+case $1 in
+  intl) setxkbmap -layout us -variant intl ;;
+  us)   setxkbmap -layout us ;;
+  latam) setxkbmap -layout latam ;;
+  *)    echo "Type *switchckb* + {intl|us|latam}" ;;
+esac
+
